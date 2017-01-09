@@ -1,0 +1,28 @@
+<extend name="Layout/index" />
+<block name="content-header">
+	<h1>
+ 	   角色管理
+		<small>分配权限</small>
+	</h1>
+</block>
+<block name="content">
+<div class="col-sm-5 col-sm-offset-3">
+	<div class='row'>
+		给 <b><{$role.name}></b> 分配权限
+	</div>
+	
+	<form action="<{:U('Role/savenode')}>" method='post'>
+	<div class='row radio'>
+		<volist name="nodes" id="vo"> 
+			<input type="checkbox" name="node[]"  value="<{$vo.id}>" <if condition="in_array($vo['id'],$ro_nodes) eq true">checked</if>><{$vo.name}>&nbsp;&nbsp;
+			<if condition="$i%4 eq 0 "><br></if>
+		</volist>
+	</div>
+	<input type="hidden" name="rid" value="<{$role.id}>">
+	<input type="submit" value="保存">
+
+	</form>
+</div>
+	
+	
+</block>

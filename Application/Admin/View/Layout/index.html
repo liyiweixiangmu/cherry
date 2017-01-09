@@ -337,7 +337,7 @@
         </li>
         <li <?=(CONTROLLER_NAME == 'Users')?"class='active treeview'":"class='treeview'"?>>
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>用户管理</span>
+            <i class="fa fa-list"></i> <span>用户管理</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -345,6 +345,42 @@
           <ul class="treeview-menu">
             <li <?=(ACTION_NAME == 'index')?"class='active'":""?>><a href="<{:U('Users/index')}>"><i class="fa fa-circle-o"></i> 用户查看</a></li>
             <li <?=(ACTION_NAME == 'add')?"class='active'":""?>><a href="<{:U('Users/add')}>"><i class="fa fa-circle-o"></i>添加用户</a></li>
+          </ul>
+        </li>
+        <li <?=(CONTROLLER_NAME == 'Admins')?"class='active treeview'":"class='treeview'"?>>
+          <a href="#">
+            <i class="glyphicon glyphicon-user"></i> <span>管理员管理</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?=(ACTION_NAME == 'index')?"class='active'":""?>><a href="<{:U('Admins/index')}>"><i class="fa fa-circle-o"></i>管理员列表</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i>添加管理员</a></li>
+          </ul>
+        </li>
+        <li <?=(CONTROLLER_NAME == 'Role')?"class='active treeview'":"class='treeview'"?>>
+          <a href="#">
+            <i class="fa fa-list-ul"></i> <span>角色管理</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?=(ACTION_NAME == 'index')?"class='active'":""?>><a href="<{:U('Role/index')}>"><i class="fa fa-circle-o"></i>角色列表</a></li>
+            <li><a href="<{:U('Role/add')}>"><i class="fa fa-circle-o"></i>角色添加</a></li>
+          </ul>
+        </li>
+        <li <?=(CONTROLLER_NAME == 'Node')?"class='active treeview'":"class='treeview'"?>>
+          <a href="#">
+            <i class="glyphicon glyphicon-th"></i> <span>节点管理</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?=(ACTION_NAME == 'index')?"class='active'":""?>><a href="<{:U('Node/index')}>"><i class="fa fa-circle-o"></i>节点列表</a></li>
+            <li><a href="<{:U('Node/add')}>"><i class="fa fa-circle-o"></i>节点添加</a></li>
           </ul>
         </li>
         <li <?=(CONTROLLER_NAME == 'Admins')?"class='active treeview'":"class='treeview'"?>>

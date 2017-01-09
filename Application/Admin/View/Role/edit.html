@@ -1,0 +1,46 @@
+<extend name="Layout/index" />
+<block name="content-header">
+	<h1>
+ 	   角色管理
+		<small>角色修改</small>
+	</h1>
+</block>
+<block name="content">
+<div class="col-sm-5 col-sm-offset-3">
+  <form class="form-horizontal" role="form" action='<{:U('Role/save')}>' method='post'>
+    <div class="form-group">
+      <label for="inputEmail3" class="col-sm-3 control-label">角色名</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="inputEmail3" placeholder="角色名" name='name' value=<{$vo.name}>>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword3" class="col-sm-3 control-label">说  明</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="inputPassword3" placeholder="说明" name='remark' value=<{$vo.remark}>>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword3" class="col-sm-3 control-label">性别</label>
+      <div class="col-sm-9">
+        <div class="radio">
+          <label>
+            <input type="radio" name="status" id="optionsRadios1" value="1"  <if condition="$vo.status eq 1">checked</if>>
+            启用
+          </label>
+          <label>
+            <input type="radio" name="status" id="optionsRadios2" value="0" <if condition="$vo.status eq 0">checked</if>>
+            禁用
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-9">
+      	<input type="hidden" name="id" value="<{$vo.id}>">
+        <button type="submit" class="btn btn-default">修改</button>
+      </div>
+    </div>
+  </form>
+</div>
+</block>
