@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>用户管理</title>
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/Dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Js/jquery-2.1.4.min.js"></script>
+    <script>
+      $(function(){
+
+        $('a[class*=danger]').click(function() {
+            var $_this = $(this);
+            $.get($_this.attr('href'),function(data) {
+                if(data){
+                  $_this.parent().parent().remove();
+                }else{
+                  alert('删除失败！');
+                }
+            });
+            return false;
+        })
+
+      })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>用户管理</h1>
+      <include file='nav' />
+      <div class="row">
+        <div class="col-sm-3">
+          <h3>搜索部分</h3>
+          <form class="form-inline" role="form" action=''>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+              <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter User" name='name' value="<{$name}>">
+            </div>       
+            <button type="submit" class="btn btn-default">搜索一下</button>
+          </form>
+        </div>
+        <div class="col-sm-9">
+          <table class="table table-striped">
+            <tr class='info'>
+              <th>ID</th>
+              <th>姓名</th>
+              <th>年龄</th>
+              <th>性别</th>
+              <th>班期</th>
+              <th>操作</th>
+            </tr>
+            <volist name='data' id='vo'>
+              <tr>
+                <td><{$vo.id}></td>
+                <td><{$vo.name}></td>
+                <td><{$vo.age}></td>
+                <td><if condition='$vo.sex eq 1'>男<else/>女</if></td>
+                <td><{$vo.grade}></td>
+                <td>
+                    <a href="<{:U('del',array('id'=>$vo['id']))}>" class='btn btn-danger btn-sm'>删除</a>
+                    <a href="<{:U('edit',array('id'=>$vo['id']))}>" class='btn btn-primary btn-sm'>修改</a>
+                </td>
+              </tr>
+            </volist>
+            <tr>
+              <td colspan=6>
+                <{$page}>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>      
+    </div>
+
+
+    <script src="__PUBLIC__/Dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

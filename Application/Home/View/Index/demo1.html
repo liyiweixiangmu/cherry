@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo1</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<h1>视图操作</h1>
+	<hr>
+	<p><{$name}></p>
+	<p><{ $name}></p>
+	<p>{$age}</p>
+	<?=$name?>
+	<?php echo $name?>
+	<p>
+		{$smarty.now}
+		{$smarty.version}
+	</p>
+	<hr>
+	<p><{$list['name']}></p>
+	<p><{$list.name}></p>
+	<p><{$obj:name}></p>
+	<p><{$obj->name}></p>
+	<hr>
+	<p><{$Think.get.id}></p>
+	<p><{$Think.server.PHP_SELF}></p>
+	<p><{$Think.const.MODULE_NAME}></p>
+	<p><{$Think.const.CONTROLLER_NAME}></p>
+	<p><{$Think.const.ACTION_NAME}></p>
+	<p><{$Think.ACTION_NAME}></p>
+	<p><{$Think.config.url_model}></p>
+	<hr>
+	<p><{$user.nickname|default='耐克'}></p>
+	<p><{$obj->age+1}></p>
+	<p><?=(1+1)?></p>
+	<hr>
+	<p>__ROOT__</p>
+	<p>__APP__</p>
+	<p>__MODULE__</p>
+	<p>__ACTION__</p>
+	<p>__CONTROLLER__</p>
+	<p>__SELF__</p>
+	<p>__PUBLIC__</p>
+	<p>__UPLOADS__</p>
+</body>
+</html>

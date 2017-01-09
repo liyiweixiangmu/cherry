@@ -1,0 +1,15 @@
+[ 2017-01-03T16:36:50+08:00 ] ::1 /S56/ThinkPHP03/app/index.php/Home/Index/add
+ERR: Think\Controller:db方法不存在！
+
+[ 2017-01-03T16:49:30+08:00 ] ::1 /S56/ThinkPHP03/app/index.php/Home/Index/add
+ERR: 1146:Table 's56.admin,student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin,student`
+
+[ 2017-01-03T16:50:22+08:00 ] ::1 /S56/ThinkPHP03/app/index.php/Home/Index/add
+ERR: 1146:Table 's56.admin,student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin,student`
+
+[ 2017-01-03T16:55:28+08:00 ] ::1 /S56/ThinkPHP03/app/index.php/Home/Index/add
+ERR: 1364:Field 'password' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `admin` (`name`) VALUES ('guest')
+

@@ -1,0 +1,24 @@
+[ 2017-01-09T11:29:13+08:00 ] ::1 /cherry/index.php/cherry/Public/Assets/img/backgrounds/1.jpg.html
+ERR: 无法加载模块:Cherry
+
+[ 2017-01-09T11:30:02+08:00 ] ::1 /cherry/index.php/img/backgrounds/3.jpg
+ERR: 无法加载模块:Img
+
+[ 2017-01-09T11:30:02+08:00 ] ::1 /cherry/index.php/img/backgrounds/2.jpg
+ERR: 无法加载模块:Img
+
+[ 2017-01-09T11:30:33+08:00 ] ::1 /cherry/index.php/img/backgrounds/3.jpg
+ERR: 无法加载模块:Img
+
+[ 2017-01-09T11:30:33+08:00 ] ::1 /cherry/index.php/img/backgrounds/2.jpg
+ERR: 无法加载模块:Img
+
+[ 2017-01-09T11:38:01+08:00 ] ::1 /cherry/Assets/img/backgrounds/2.jpg
+ERR: 无法加载模块:Assets
+
+[ 2017-01-09T11:38:01+08:00 ] ::1 /cherry/Assets/img/backgrounds/3.jpg
+ERR: 无法加载模块:Assets
+
+[ 2017-01-09T11:38:01+08:00 ] ::1 /cherry/Assets/img/backgrounds/1.jpg
+ERR: 无法加载模块:Assets
+

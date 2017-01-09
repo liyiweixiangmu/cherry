@@ -1,0 +1,156 @@
+[ 2017-01-06T10:31:15+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Admin/Student
+ERR: 无法加载控制器:Student
+
+[ 2017-01-06T10:31:57+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Admin/User
+ERR: 无法加载控制器:User
+
+[ 2017-01-06T14:07:04+08:00 ] ::1 /S56/Project01/app/Admin/Student/
+ERR: 无法加载控制器:Student
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/css/ace.min.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace-extra.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/css/ace-skins.min.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/css/ace-rtl.min.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/css/bootstrap.min.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/css/font-awesome.min.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.ui.touch-punch.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.slimscroll.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.easy-pie-chart.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/bootstrap.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.sparkline.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/typeahead-bs2.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.pie.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.resize.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace-elements.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:19:20+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:20:44+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-2.0.3.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace-extra.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-ui-1.10.3.custom.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/typeahead-bs2.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/bootstrap.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.slimscroll.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.easy-pie-chart.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.ui.touch-punch.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.pie.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/flot/jquery.flot.resize.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery.sparkline.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace-elements.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/ace.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:29+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-2.0.3.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:21:54+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-2.0.3.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:22:02+08:00 ] ::1 /S56/Project01/app/index.php/Admin/assets/js/jquery-2.0.3.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-01-06T14:34:39+08:00 ] ::1 /S56/Project01/app/index.php/Admin/tables.html
+ERR: 无法加载控制器:Tables
+
+[ 2017-01-06T15:14:47+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Pubilc/
+ERR: 无法加载控制器:Pubilc
+
+[ 2017-01-06T15:14:55+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/login.html
+ERR: 无法加载控制器:Public
+
+[ 2017-01-06T15:16:22+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-01-06T15:16:22+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-01-06T15:16:23+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/assets/css/font-awesome.min.css
+ERR: 非法操作:assets
+
+[ 2017-01-06T15:16:23+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/assets/css/ace-rtl.min.css
+ERR: 非法操作:assets
+
+[ 2017-01-06T15:17:46+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/assets/js/jquery-2.0.3.min.js
+ERR: 非法操作:assets
+
+[ 2017-01-06T15:21:10+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/doLogin.html
+ERR: 非法操作:doLogin
+
+[ 2017-01-06T15:31:55+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/doLogin.html
+ERR: 模板不存在:./Application/Admin/View/Public/dispatch_jump.html
+
+[ 2017-01-06T15:32:38+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/doLogin.html
+ERR: 模板不存在:./Application/Admin/View/Public/dispatch_jump.html
+
+[ 2017-01-06T15:33:15+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Public/doLogin.html
+ERR: 模板不存在:./Application/Admin/View/Public/dispatch_jump.html
+
+[ 2017-01-06T15:39:44+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Studnet
+ERR: 无法加载控制器:Studnet
+
+[ 2017-01-06T15:45:37+08:00 ] ::1 /S56/Project01/app/index.php/Admin/Studnet
+ERR: 无法加载控制器:Studnet
+

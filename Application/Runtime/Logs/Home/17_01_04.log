@@ -1,0 +1,42 @@
+[ 2017-01-04T14:15:33+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Home/Index/see
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by sex' at line 1
+ [ SQL语句 ] : select count(*) from student having age > 10 group by sex 
+
+[ 2017-01-04T14:15:42+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Home/Index/see
+ERR: 1054:Unknown column 'age' in 'having clause'
+ [ SQL语句 ] : select count(*) from student group by sex having age > 10 
+
+[ 2017-01-04T14:27:05+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Home/Index/see
+ERR: 1146:Table 's56.select' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `SELECT`
+
+[ 2017-01-04T14:27:17+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/Home/Index/see
+ERR: 1146:Table 's56.select' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `SELECT`
+
+[ 2017-01-04T15:03:54+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/doRegister.html
+ERR: 非法操作:doRegister
+
+[ 2017-01-04T15:13:15+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/doRegister.html
+ERR: 1364:Field 'addtime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `member` (`name`,`password`,`email`) VALUES ('admin','123456','123@qq.com')
+
+[ 2017-01-04T15:14:10+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/doRegister.html
+ERR: 1364:Field 'addtime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `member` (`name`,`password`,`email`) VALUES ('root','123456','')
+
+[ 2017-01-04T15:21:11+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/registr
+ERR: 非法操作:registr
+
+[ 2017-01-04T15:22:01+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/doRegister.html
+ERR: 1364:Field 'addtime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `member` (`name`,`password`,`email`) VALUES ('jack','123456','123@qq.com')
+
+[ 2017-01-04T16:01:29+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/doRegister.html
+ERR: 1062:Duplicate entry '' for key 'email'
+ [ SQL语句 ] : INSERT INTO `member` (`name`,`password`,`email`,`is_used`,`addtime`) VALUES ('ttom','e10adc3949ba59abbe56e057f20f883e','','1','1483516889')
+
+[ 2017-01-04T16:09:49+08:00 ] 127.0.0.1 /S56/ThinkPHP04/app/index.php/Home/Member/bind
+ERR: :
+ [ SQL语句 ] : SELECT * FROM `student` WHERE `name` = '' AND `age` = '' 
+

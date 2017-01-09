@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><{$title}></title>
+</head>
+<body>
+	<h1><{$title}></h1>
+	<{:W('Cate/nav')}>
+	<hr>
+	<p><{:U('index')}></p>
+	<p>
+		<?php
+		echo U('index');
+		?>
+	</p>
+	<p><{:C('DB_TYPE')}></p>
+	<p><{:C('URL_MODEL')}></p>
+	<p><{:C('URL_MODEL',2)}></p>
+	<p><{:C('URL_MODEL')}></p>
+	<hr>
+	<img src="__PUBLIC__/Images/Meinv001.jpg" width=200 alt="">
+	<hr>
+	<img src="<{:U('code')}>" alt="">
+</body>
+</html>
